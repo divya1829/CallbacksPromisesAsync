@@ -25,6 +25,7 @@ function getUserSubjects(userRoll) {
         resolve({ subid: "en-1" });
     });
 }
+console.log("testing");
 
 function getUserMarks(userSubId) {
     return new Promise((resolve) => {
